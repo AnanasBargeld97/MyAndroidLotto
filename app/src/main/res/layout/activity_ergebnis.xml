@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dozkaz.bib.de.myandroidlotto.Ergebnis">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvUeberschrift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvMeineZahlen"
+            android:layout_marginTop="10dp"
+            android:textSize="40sp" />
+
+
+        <TextView
+            android:id="@+id/tvMeineZahlen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvZahlen"
+            android:layout_marginTop="20dp"
+            android:textSize="32sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/tvLotto"
+            android:textSize="32sp"/>
+
+        <TextView
+            android:id="@+id/tvLottozahlen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textSize="32sp"
+            android:text="@string/tvLottozahlen" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginTop="50dp"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btnGenData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/genErg"
+            android:onClick="genDataClick"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

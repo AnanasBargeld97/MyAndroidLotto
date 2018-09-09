@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyAndroidLotto</string>
+    <string name="zahlenWahl">Wählen Sie Ihre Zahlen aus:</string>
+    <string name="action_settings">Settings</string>
+    <string name="tvAnz">Anzahl Ziehungen</string>
+    <string name="tvGenerieren">Sie können auch Ziehungen generieren:</string>
+    <string name="btnGenerieren">Generieren</string>
+    <string name="title_activity_ergebnis">Ergebnis</string>
+    <string name="tvMeineZahlen">Ihre Ziehung:</string>
+    <string name="tvZahlen"></string>
+    <string name="tvLotto">Lottozahlen</string>
+    <string name="tvLottozahlen"></string>
+    <string name="btnStart">Spielen</string>
+    <string name="again">Nochmal</string>
+    <string name="title_activity_generated">Generierte Ergebnisse</string>
+    <string name="gew">Die Gewinner:</string>
+    <string name="genErg">Zeige generierte Ergebnisse</string>
+</resources>
